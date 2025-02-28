@@ -21,26 +21,13 @@
     <p>the answer is 2<sup>2</sup> 4</p>
 
     <p>
+      <!-- <br /> tag line break krny k liye us hota ha k aik he paragraph men rehty hwy line break hu jay  -->
       Lorem, ipsum dolor sit amet <br />
       consectetur adipisicing elit. Perferendis, sequi.
     </p>
 
     <p>My name is <strong>Talha</strong></p>
     <p>we have another semantic markup tag and that is <em>em</em></p>
-
-    <blockquote>
-      <p>
-        The question isn't who is going to let me; it's who is going to stop me
-      </p>
-    </blockquote>
-
-    <p>
-      As A.A. Milne said,
-      <q
-        >Some people talk to animals. Not many listen though. That's the
-        problem.</q
-      >
-    </p>
 
 <!-- ya commit ha  -->
 
@@ -52,12 +39,50 @@
     <p><abbr title="Hyper Text Markup Language">HTML</abbr> is use for crating web structure</p>
 
 
-    <address>
-        <p ><a href="https://wa.me/923001234567"></a>Call us</p>
-    </address>
+    <!-- <del> tag: yeh show karta hai ke koi text delete ho gaya hai -->
+      <p>Yeh ek <del>purana</del> naya product hai.</p>  
+      <!-- Output: Yeh ek ~purana~ naya product hai. -->
+  
+      <!-- <ins> tag: yeh naya insert kia gaya text show karta hai -->
+      <p>Yeh ek <ins>naya</ins> product hai.</p>  
+      <!-- Output: Yeh ek underline wala "naya" product hai. -->
+  
+      <!-- <address> tag: contact details ya location ke liye use hota hai -->
+      <address>
+          Written by <a href="mailto:example@email.com">Talha</a>.<br>
+          Visit us at: <br>
+          123 Web Street, Code City, PK.
+      </address>
+      <!-- Output: Contact info italic style me show hogi. -->
+  
+      <!-- <cite> tag: kisi book ya source ka reference dene ke liye -->
+      <p><cite>The AI Revolution</cite> is a great book about modern AI.</p>  
+      <!-- Output: "The AI Revolution" italic me show hoga. -->
 
+      <!-- <q> tag short inline quotation ke liye use hota hai -->
+    <p>Elon Musk ne kaha: <q>AI will change the world.</q></p>  
+    <!-- Output: Elon Musk ne kaha: "AI will change the world." -->
+    <!-- Browser automatically double quotes (" ") add karega. -->
+
+    <!-- <blockquote> tag long quotes ya paragraph ke liye use hota hai -->
+    <blockquote>
+        AI is the new electricity. It will revolutionize every industry, from healthcare to finance.
+    </blockquote>
+    <!-- Output: Yeh text ek separate block me show hoga, thoda indent hoga. -->
+
+    <!-- <q> aur <blockquote> ke darmiyan farq -->
+    <p>
+        <strong>Q tag:</strong> Yeh <q>sirf chhoti quotation</q> ke liye hai.  
+        <br>
+        <strong>Blockquote tag:</strong> Agar quote bara ho, jaise neeche diya gaya hai:  
+    </p>
+
+    <blockquote>
+        "AI will impact every aspect of human life, and we must be prepared for its rapid evolution."
+    </blockquote>
+
+    
     <!-- <s></s> tag use huta ha ya btany k liye k ab ya chezz exist nh krti -->
-
     <p>Laptop Price</p>
     <p>was <s>24000</s> but now in 12000</p>
   </body>
